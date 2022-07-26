@@ -7,3 +7,12 @@ print(a)
 
 #---------------리스트에서 요소의 인덱스 추출하기
 a=animals.index('dog')
+
+
+#---------------리스트가 딕셔너리형태로 바뀐다   [ ] --> { }
+report=set(report)
+
+
+#---------------{'muzi': 0, 'frodo': 0, 'apeach': 0, 'neo': 0} 이렇게 만들어봐라
+reports = {x : 0 for x in id_list}
+print(reports)

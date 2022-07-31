@@ -39,6 +39,11 @@ print(l)         #[4, 'abc', 2, 8]
 l.remove(4)
 print(l)         #['abc', 2, 8]
 
+#---*remove 유의사항-----
+  #lottos2=lottos.remove(0) 처럼 쓰지 말기!!! lottos2 작동안됨
+  #lottos.remove(0)으로 코드 끝!!
+#------------------------
+
 dir(l)           #사용가능한 함수 보기
 
 l.reverse()

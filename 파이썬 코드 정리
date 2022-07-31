@@ -16,3 +16,40 @@ report=set(report)
 #---------------{'muzi': 0, 'frodo': 0, 'apeach': 0, 'neo': 0} 이렇게 만들어봐라
 reports = {x : 0 for x in id_list}
 print(reports)
+
+
+#---------------리스트 관련 함수 공부
+
+l=[]
+l.append(5)
+print(l)         #[5]
+
+l.append(8)
+print(l)         #[5, 8]
+
+l[0]=2
+print(l)         #[2, 8]
+
+l.insert(0, 4)
+print(l)         #[4, 2, 8]
+
+l.insert(1,'abc')
+print(l)         #[4, 'abc', 2, 8]
+
+l.remove(4)
+print(l)         #['abc', 2, 8]
+
+dir(l)           #사용가능한 함수 보기
+
+l.reverse()
+print(l)         #[8, 2, 'abc']
+
+help(l.sort)     #sort사용법보기
+
+l2=['km','d','io']
+l2.sort(key= lambda x: x)
+print(l2)        #['d', 'io', 'km']
+
+l3=[5,89,3]
+l3.sort(key= lambda x: x)
+print(l3)        #[3, 5, 89]

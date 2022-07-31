@@ -58,3 +58,8 @@ print(l2)        #['d', 'io', 'km']
 l3=[5,89,3]
 l3.sort(key= lambda x: x)
 print(l3)        #[3, 5, 89]
+
+
+
+#---------------리스트에서 0의 갯수 세기
+count_0 = lottos.count(0)
